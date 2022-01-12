@@ -160,7 +160,7 @@ const routes = [
   },
   {
     path: '/blog/add',
-    name: 'BlogEdit',
+    name: 'BlogAdd',
     component: () => import(/* webpackChunkName: "about" */ '../views/BlogEdit.vue')
   },
   {
